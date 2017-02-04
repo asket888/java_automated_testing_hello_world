@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KWL automation">
+    <test name="Overall tests" >
+        <classes>
+            <class  name="kwl.automate.test.overall.CalculatorTest">
+            </class>
+            <class  name="kwl.automate.test.overall.ComplexCardTest">
+            </class>
+            <class  name="kwl.automate.test.overall.DonorInfoTest">
+            </class>
+            <class  name="kwl.automate.test.overall.RemoveCardTest">
+            </class>
+            <class  name="kwl.automate.test.overall.RemoveSessionTest">
+            </class>
+            <class  name="kwl.automate.test.overall.SimpleCardTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Environmental tests" >
+        <classes>
+            <class  name="kwl.automate.test.environment.AntigenDonorTest">
+            </class>
+            <class  name="kwl.automate.test.environment.AntigenRecipientTest">
+            </class>
+            <class  name="kwl.automate.test.environment.BloodExclusionDonorTest">
+            </class>
+            <class  name="kwl.automate.test.environment.BloodExclusionRecipientTest">
+            </class>
+            <class  name="kwl.automate.test.environment.PrioritizationDonorTest">
+            </class>
+            <class  name="kwl.automate.test.environment.PrioritizationRecipientTest">
+            </class>
+        </classes>
+    </test>
+</suite>
